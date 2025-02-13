@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siap Males Makan</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+            text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.7);
+            animation: kedip 1s infinite alternate, warna 5s infinite alternate;
+        }
+
+        @keyframes kedip {
+            0% { opacity: 1; }
+            100% { opacity: 0.3; }
+        }
+
+        @keyframes warna {
+            0% { color: red; }
+            25% { color: blue; }
+            50% { color: green; }
+            75% { color: yellow; }
+            100% { color: purple; }
+        }
+
+        .video-container {
+            width: 90%;
+            max-width: 400px;
+            height: auto;
+        }
+
+        iframe {
+            width: 100%;
+            height: 250px;
+            border-radius: 10px;
+            border: 3px solid white;
+            box-shadow: 0px 0px 10px white;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Siap Males Makan Karena Lauk Tidak Mendukung</h1>
+
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/C92wX2UGUNM?autoplay=1&loop=1&playlist=C92wX2UGUNM" 
+                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+        </iframe>
+    </div>
+
+</body>
+</html>
